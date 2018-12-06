@@ -4,10 +4,10 @@ and cameraRange parking spots to its right. Therefore, it has a total coverage o
 
 The following is a diagram of a camera:
 
-           Camera
-            |   |
-      <------>1<------>
-   cameraRange   CameraRange
+             Camera
+              |   |
+        <------>1<------>
+    cameraRange   CameraRange
 
 The locations list represents a list of locations of occupied parking spots. The algorithm we're applying is going to
 go through the beginning to the end of the list and group the cars into distinct sections of camera coverages, with
